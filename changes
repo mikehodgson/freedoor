@@ -1,0 +1,97 @@
+CHANGES.TXT
+
+1.70 ::
+- Fixed speed problems with CMaskInput and CMaskInputPW.
+- Fixed glaring bug with isLocalChar.
+
+1.65 ::
+- Error in CWriteLn fixed.
+
+1.50 ::
+- Removed the sysop keys until I can get them working properly.
+- Various cleaning up.
+
+1.35 ::
+- Fixed slight bug when running local mode with /Q quiet switch.
+- Added LORD SANSI support to color codes (thanks to Michael Preslar).
+- Added Sysop 'kick' key, ALT-Q.
+- Added function CGetOpSys to detect OS version (Windows only right now!).
+
+1.30 ::
+- Updated Quiet Mode to not create console window under Win32.
+- Improved fix to Win2k/XP issue (see v1.25).
+
+1.25 ::
+- Bug when running under Win2k fixed.
+
+1.20 ::
+- Michael Preslar
+    Added "Quiet Mode" (/Q on command line)
+    Added "No Status Bar" (/NOSTATBAR on command line)
+    Added DDPlus compatibility. See the docs for specs.
+- Added CRight() for right-aligning text.
+- Fixed CMaskInput colour bug, and mask bug.
+- Fixed (again) CGoto_XY.
+- Fixed (again) CWindow.
+- DeInitDoorDriver no longer needs to be called.
+- Error in Elecom OS/2 units fixed.
+- Some needless files removed from package.
+- Better carrier detection.
+- Documentation now distributed separately.
+
+1.15 ::
+- Major Bug in CWindow() fixed.
+
+1.14 ::
+- Support for Borland Delphi added.
+
+1.13 ::
+- Updated docs
+- Changed to BSD license.
+- Finally removed CEXYZ send procedure.
+
+1.12 ::
+- Removed second decimal from version number :o)
+- Added Basic Multinode Messaging support. (see CSendToNode and CGetFromNode in docs)
+
+1.1.0 ::
+- Added support for Borland Pascal, the doorkit can now be used to create 16bit DOS doors.
+- Added some speed improvements to CMaskInput.
+- Added CCenter procedure for centering text.
+
+1.0.8 ::
+- Fixed problem with programs crashing after being started with no command-line parameters.
+- Changed timing code. SysSysMsCount did not seem to work on some WinNT systems. Code now uses GetTimeMSec.
+- CGotoXY was reversed (oopsie!), works properly now.
+- Kit is now much more processor friendly, no more 100% CPU usage!
+
+
+1.0.6 ::
+- Fixed slight problem with timer code
+- StatFore and StatBack actually change the statusbar's colors now.
+
+1.0.4 ::
+- Added support for WWIV and Synchronet colour codes.
+
+1.0.2 ::
+- Changed Statusbar code to use SysSysMsCount instead of old, complicated elapsed time routine.
+- Took redundant code out of CGetChar.
+
+1.0.0 ::
+- Additions/Fixes supplied by Michael Preslar denoted by mp
+- Additions/Fixes supplied by Rick Parrish denoted by rp
+- Added MASK_* constants for CMaskInput (see freedoor.inc)
+- Fixed some more ANSI problems
+- Compiled and tested with Virtual Pascal 2.1 prebeta
+
+0.9.8 ::
+- Fixed major bug in CWriteFile()
+- Added DORINFOx.DEF support
+- Added /N<node number> switch
+
+0.9.5 ::
+- New ANSI parser written from scratch, some code fixed that was messing up colours.
+
+0.9.2 ::
+- Initial public release.
+

@@ -1,0 +1,23 @@
+             FreeDoor v1.70
+------------------------------------------
+ FEATURES:
+    - Released under BSD License
+    - Compiles under Virtual Pascal and
+      Borland Pascal
+    - Support for Door32.sys as well as
+      door.sys and dorinfox.def
+    - Allows creation of socket (telnet)
+      or modem based doors
+    - Win32, OS/2, or DOS native doors
+    - ANSI terminal emulation
+    - Support for Telegard, WWIV,
+      Synchronet, LORD colour codes
+    - Multinode messages
+    - And more...
+ THIS RELEASE:
+    - Output routines speed increase
+    - Miscellaneous bugfixes
+------------------------------------------
+    (c)opyright 2000-2002 Mike Hodgson
+     www.mhdev.com | www.elysoft.org
+==========================================

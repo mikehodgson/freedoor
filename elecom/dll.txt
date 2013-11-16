@@ -1,0 +1,17 @@
+DLL files
+=========
+
+This archive contains these files:
+
+ELECOM12.OS2                - EleCOM compiled to DLL (OS/2 format)
+ELECOM12.W32                - EleCOM compiled to DLL (Win32 format)
+ELECOM12.PAS                - Sourcefile to generate those DLL's
+ELEDEF.PAS                  - DLL definition file
+DLLEXAM.PAS                 - Example on how to use EleCOM as DLL's.
+
+You have to rename the DLL files back to .DLL before you can use them.
+
+If you want to use these files, feel free - you can use ELECOM12.PAS to
+compile them yourselves (if you have the appropriate compilers available)
+
+groeten, Maarten Bekers.
